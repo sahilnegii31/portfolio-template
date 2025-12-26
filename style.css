@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 340px;
+    max-height: 100%;
+    background-color:black;
+    font-size: larger;
+}
+.content{
+    margin-left:2rem;
+    margin-top:1.7rem;
+    font-size: larger;
+}
+/*------------------------------------------------
+HEADER SECTION
+--------------------------------------------------*/
+/*------------------------------------------------
+NAVIGATION-BAR
+--------------------------------------------------*/
+
+.navbar{
+    height:3rem;
+    width:100%;
+    background-color: #941818;  
+    min-width:340px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    color:white;
+    transition:all .2s ease-in-out;
+}
+.status{
+    display:flex;
+    height:2.5rem;
+    padding-left:1rem;
+    border-radius:20px;
+    background-color: transparent;
+    font-weight: lighter;
+    align-items: center;
+}
+.opt{
+    display:flex;
+    justify-content: end;
+    align-items:center;
+    align-content:center;
+    font-weight: 600;
+}
+.dot{
+    margin-right:.6rem;
+    background-color:green;
+    height:1rem;
+    width:1rem;
+    border-radius:50%;
+}
+a{
+    color:white;
+    text-decoration:none;
+    margin-right:1rem;
+    font-size:1.25rem;
+}
+.opt a:nth-child(n):hover{
+    color:black;
+    border-bottom:1px solid black;
+
+}
+
+
+/* -----------------------------------------------------------------------------
+INTRO PART
+--------------------------------------------------------------------------------*/
+
+.intro{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    height: max-content;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    min-width: 340px;
+}
+.pfp{
+    border:2px solid #B4121B;
+    height:12rem;
+    width:12rem;
+    background-image:url("pfp.jpg");
+    background-size: cover;
+    border-radius:50%;
+    background-position-x: center;
+    margin-top:1.5rem;
+}
+.hi{
+    color:white;
+    font-size:40px;
+    margin-left:38px;
+    margin-top:25px;
+}
+.full{
+    color:white;
+    margin-left:38px;
+}
+.intro button{
+    height:2.5rem ;
+    width:8rem;
+    background-color:#B4121B;
+    border-radius:10px;
+    border:none;
+    margin-top:10px;
+    cursor:pointer;
+    font-weight: 600;
+    margin-left:4.3rem;
+}
+
+/*---------------------------------------
+MAIN SECTION
+-----------------------------------------*/
+main{
+    max-height: max-content;
+    color:white;
+    margin-left:4rem;
+    margin-right:4rem;
+}
+main div:nth-child(n){
+    margin-bottom:3rem;
+}
+/* .margin{
+margin-top:2rem;
+} */
+.data{
+    display:flex;
+}
+.items{
+    /* margin-top: 1.5rem; */
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap; 
+    gap:50px;
+    align-items:center;
+}
+.work{
+    border:2px solid #B4121B;
+    border-radius:19px;
+    height:20rem;
+    width:15rem;
+    transition:all 0.3s ease-in-out;
+}
+/* .tech:nth-child(n){
+    margin-top:1rem;
+} */
+.tech{
+    padding-bottom:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content: space-evenly;
+}
+.tech img{
+    height: 6rem;
+    margin-left:2rem;
+    width: 6rem;
+}
+/*-----------------------------------------------------------
+Contact section
+-------------------------------------------------------------*/
+
+#contact{
+    padding:1rem 2rem 2rem 2rem;
+    background-color:rgb(255,255,255,0.1);
+    border-radius:10px;
+    max-width: 450px;
+    margin:auto;
+    margin-top:3rem;
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+#message{
+    max-width:inherit;
+    max-height: 15rem;
+}
+#contact form{
+    display:flex;
+    flex-direction:column;
+    max-width: inherit;
+    margin:0 auto;
+}
+#contact label{
+    margin-top:1rem;
+    font-weight:bold;
+}
+#contact input,#contact textarea{
+    padding:0.5rem;
+    border:1px solid #ccc;
+    border-radius:5px;
+    color:white;
+    font-family:inherit;
+    width:100%;
+    max-width: inherit;
+    background-color: inherit;
+    min-width:100px;
+}
+#contact input:focus,
+#contact textarea:focus{
+    border:2px solid #B4121B;
+    outline:none;
+}
+#contact .btn{
+    margin-left:1rem;
+    margin-top:1rem;
+    padding:0.7rem;
+    background-color:#B4121B;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    max-width: inherit;
+}
+
+/*----------------------------
+FOOTER------------------------
+----------------------------*/
+footer{
+    margin-top:3rem;
+    border-top:1px solid gray;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    text-align:center;
+    height:max-content
+}
+.handels{
+    margin-top:1rem;
+}
+.handels i{
+    font-size:2rem;
+    transition:all 0.2s ease-in-out;
+}
+.handels i:hover{
+    color:#B4121B;
+    transform:scale(1.2);
+}
