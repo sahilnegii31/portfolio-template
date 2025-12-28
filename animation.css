@@ -11,12 +11,6 @@
     transform:scale(1.05);
     background-color:#830e14;
 }
-.btn{
-    transition:all 0.2s ease-in-out;
-    font-weight: 600;
-    font-size:16px;
-    
-}
 .work:hover{
     transform:scale(1.05);
     box-shadow: 0 0 10px #830e14,
@@ -30,5 +24,27 @@
     }
     .navbar{
         height:auto;
+    }
+}
+#btn:hover{
+    background-color:#222020;
+    transform:scale(1.1);
+}
+@media(width<962px){
+    .work{
+        width:10rem;
+        height:15rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .tech{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media(width<721px){
+    .work{
+        width:6rem;
+        height:10rem;
     }
 }
