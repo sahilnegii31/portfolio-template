@@ -7,6 +7,7 @@ A clean and responsive portfolio website template built using HTML, CSS, and bas
 - Clean UI
 - Easy to customize
 - Beginner friendly
+- Theme changing toggle (light mode and dark mode) 
 
 ## Tech Stack
 - HTML5

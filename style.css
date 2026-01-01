@@ -22,6 +22,7 @@ body{
     margin-left:2rem;
     margin-top:1.7rem;
     font-size: larger;
+    text-align: start;
 }
 #btn{
     background-color:rgba(0,0,0,.5);
@@ -148,6 +149,7 @@ main{
     max-height: max-content;
     margin-left:4rem;
     margin-right:4rem;
+    text-align: center;
 }
 main div:nth-child(n){
     margin-bottom:3rem;
